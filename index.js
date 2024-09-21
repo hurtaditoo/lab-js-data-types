@@ -38,7 +38,7 @@ const billTotal = 84;
 let tipAmount = billTotal * 0.15;
 
 // Print out the tipAmount
-console.log(tipAmount)
+console.log(tipAmount);
 
 
 /*******************************************
@@ -46,10 +46,10 @@ console.log(tipAmount)
 *******************************************/
 
 // Generate a random integer between 1 and 10 (inclusive)
-
+let randomNumber = Math.ceil(Math.random() * 10);
 
 // Print the generated random number
-
+console.log(randomNumber);
 
 
 /*******************************************
